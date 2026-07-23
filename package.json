@@ -1,0 +1,9 @@
+{
+  "name": "ecommerce-monorepo",
+  "private": true,
+  "scripts": {
+    "server": "npm --prefix backend run start",
+    "dev": "npm --prefix frontend run start",
+    "seed": "node seedProducts.js"
+  }
+}
